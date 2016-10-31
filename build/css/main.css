@@ -1,8 +1,36 @@
-body {
-  background-color: #3f3f3f;
-  color: #fff;
-  font-size: 24px; }
+* {
+  padding: 0;
+  margin: 0; }
 
-.user {
-  padding: 10px;
-  border-bottom: 1px solid black; }
+html {
+  font: 14px normal Arial, sans-serif;
+  color: #626771;
+  background-color: #fff; }
+
+body {
+  padding: 50px 0;
+  text-align: center; }
+
+h1 {
+  margin-bottom: 20px; }
+
+ul {
+  list-style: none;
+  display: inline-block; }
+
+li {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #eee;
+  color: #7B8585;
+  transition: 0.3s; }
+  li:hover {
+    background-color: #beecea; }
+  li.focused {
+    color: #fff;
+    background-color: #41c7c2; }
+
+p {
+  padding-top: 15px;
+  font-size: 12px; }
